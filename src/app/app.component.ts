@@ -9,13 +9,8 @@ import { VideoPlayerConfig } from './models/thunmbnail-video.models';
 export class AppComponent {
   title = 'videoplayerapp';
   options: VideoPlayerConfig = {
-    width: '960px',
-    height: '540px',
-    //frontendPreload: false
+    width: '720px',
+    height: '480px'
   };
-  /* thumb = '{}';
-  progressBar(sec: number) {
-    this.thumb = JSON.stringify({sec: sec, url: 'assets/video.mp4'});
-    console.log(this.thumb);
-  } */
+  videoUrl = 'assets/samplevideo.mp4';
 }

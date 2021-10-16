@@ -25,7 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-##
-[Video progress bar](https://www.npmjs.com/package/ngx-thumbnail-video)
-[Tutorial](https://levelup.gitconnected.com/build-youtube-like-stylish-video-player-with-thumbnail-preview-on-progress-bar-hovered-53b9074acd75)
