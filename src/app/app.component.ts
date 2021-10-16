@@ -13,4 +13,9 @@ export class AppComponent {
     height: '540px',
     //frontendPreload: false
   };
+  /* thumb = '{}';
+  progressBar(sec: number) {
+    this.thumb = JSON.stringify({sec: sec, url: 'assets/video.mp4'});
+    console.log(this.thumb);
+  } */
 }

@@ -10,7 +10,7 @@ export const defaults: VideoPlayerConfig = {
   height: '540px',
   frontendPreload: true,
   autoplay: false,
-  mute: true,
+  mute: false,
   borderRadius: '0px',
   interval: 1,
   thumbnailRatio: 5,
@@ -55,6 +55,7 @@ export class VideoThumbnailComponent implements OnInit, OnChanges, AfterViewInit
       this.thumb = JSON.stringify(
         this.ts.find((t) => t.sec === this.sec) ?? {}
       );
+      console.log(this.thumb);
     });
   }
 
