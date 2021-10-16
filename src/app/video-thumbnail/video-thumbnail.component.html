@@ -8,7 +8,7 @@
             vp?.nativeElement?.ended ? 'replay' : 'play_arrow'
             }}</mat-icon>
     </div>
-    <ngx-video-controls *ngIf="videoLoaded" [class.active]="onHover || showActions" [target]="vp"
+    <app-video-controls *ngIf="videoLoaded" [class.active]="onHover || showActions" [target]="vp"
         (stateChange)="actionOnVideo($event)" (pbOnHover)="onPbHovered($event)" [thumb]="thumb"
-        (nonControlAreaClicked)="actionOnVideo()" [thumbnailRatio]="options?.thumbnailRatio || 5"></ngx-video-controls>
+        (nonControlAreaClicked)="actionOnVideo()" [thumbnailRatio]="options?.thumbnailRatio || 5"></app-video-controls>
 </div>
